@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="da8f821d-a252-48d2-af5a-e90ab732f34e" name="ResNets-X">
+        <fileTransfer accessType="SFTP" host="10.5.151.40" port="22" sshConfigId="f77c8ec2-1213-4c88-95ca-51437a1e988a" sshConfig="ResNet-X">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0ec3165a-3cb3-4467-b122-8d7a0ead692c" name="admin_1117">
+        <fileTransfer accessType="SFTP" sshConfigId="13ef0f97-377b-4be2-a03b-c19aa082b085" sshConfig="admin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
